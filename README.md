@@ -5,7 +5,9 @@ There are a lot of different files here, so for better understanding:
 
 * Documentation is stored as .docx Word-File and .pdf-File
 
-* algo.cpp is the main file which is executed and contains the main()-function
+* algo.cpp is the main file which is compiled and contains the main()-function
+
+* because of poor performance in visual studio, the .exe files are run with cmd and the output of the program is stored to a ppm file with the `>` operator
 
 * taskTwo.h is a headerfile which contains all the classes and different structs and methods which algo.cpp uses. *It is referenced by the path of the file in algo.cpp, so that probably has to be adjusted if this code is to be run locally.*
 
